@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Weather</title>
+    <!-- link fontawsome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- link main css -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body class="text-alt">
+    <main class="bg-main">
+      <nav>
+        <nav class="navbar navbar-expand-lg py-5">
+          <div class="container">
+            <div class="nav-logo">
+              <a
+                class="navbar-brand link-light d-flex align-items-center"
+                href="#"
+              >
+                <img src="./assets/images/logo@2x.png" alt="weather logo" />
+                <div class="logo-text">
+                  <h1 class="fs-6 fw-bold">Weather</h1>
+                  <p class="text-alt mb-0">tagline goes here</p>
+                </div>
+              </a>
+            </div>
+            <button
+              class="navbar-toggler rounded-circle text-light shadow-none"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars fs-6"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item ms-2">
+                  <a
+                    class="nav-link link-light rounded-pill active"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item ms-2">
+                  <a class="nav-link link-light rounded-pill" href="#">News</a>
+                </li>
+                <li class="nav-item ms-2">
+                  <a class="nav-link link-light rounded-pill" href="#"
+                    >Live cameras</a
+                  >
+                </li>
+                <li class="nav-item ms-2">
+                  <a class="nav-link link-light rounded-pill" href="#"
+                    >Photos</a
+                  >
+                </li>
+                <li class="nav-item ms-2">
+                  <a class="nav-link link-light rounded-pill" href="assets/pages/contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </nav>
+      <div class="hero">
+        <div class="container">
+          <form class="search position-relative">
+            <input
+              id="locationSearch"
+              type="text"
+              class="form-control text-white shadow-none rounded-pill"
+              name="location"
+              placeholder="Find your location..."
+            />
+            <button
+              class="btn-main rounded-pill position-absolute"
+              type="submit"
+            >
+              Find
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="forecast-table bg-main">
+        <div class="container">
+          <div
+            id="forecastContainer"
+            class="forecast-container row rounded-3 overflow-hidden"
+          ></div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="row mb-4 align-items-center gy-3">
+            <div class="col-12 col-lg-8">
+              <div class="inner">
+                <form class="subscribe position-relative">
+                  <input
+                    type="text"
+                    class="form-control border-0 text-white shadow-none rounded-pill"
+                    name="location"
+                    placeholder="Enter your email to subscribe..."
+                  />
+                  <button
+                    class="btn-main rounded-pill position-absolute"
+                    type="submit"
+                  >
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="inner">
+                <ul
+                  class="list-unstyled gap-1 mb-0 d-flex justify-content-center"
+                >
+                  <li>
+                    <a
+                      href="#"
+                      class="text-main d-flex justify-content-center align-items-center text-decoration-none rounded-circle bg-main"
+                    >
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-main d-flex justify-content-center align-items-center text-decoration-none rounded-circle bg-main"
+                    >
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-main d-flex justify-content-center align-items-center text-decoration-none rounded-circle bg-main"
+                    >
+                      <i class="fa-brands fa-google-plus-g"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-main d-flex justify-content-center align-items-center text-decoration-none rounded-circle bg-main"
+                    >
+                      <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="fs-14">
+            Copyright 2014 Company name. Designed by Themezy. All rights
+            reserved
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
