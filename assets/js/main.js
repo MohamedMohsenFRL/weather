@@ -1,6 +1,6 @@
 let locationSearch = document.querySelector("#locationSearch");
 let forecastContainer = document.querySelector("#forecastContainer");
-let api = "http://api.weatherapi.com/v1";
+let api = "https://api.weatherapi.com/v1";
 let key = "f947fdf875054fa7a72204535241012";
 let weatherLocation = "cairo";
 
